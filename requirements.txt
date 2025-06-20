@@ -1,11 +1,17 @@
-streamlit
-python-dotenv
-langchain
-langchain-community
-langchain-core
-langchain-huggingface
-huggingface_hub
-sentence-transformers
-faiss-cpu
+streamlit==1.45.1
+python-dotenv==1.1.0
+langchain==0.3.25
+langchain-community==0.3.25
+langchain-core==0.3.65
+langchain-huggingface==0.3.0
+langchain-text-splitters==0.3.8
+huggingface_hub==0.23.0
+sentence-transformers==2.6.1
+sentencepiece==0.2.0
+faiss-cpu==1.7.4
+httpx==0.28.1
+httpx-sse==0.4.0
 torch==2.1.2+cpu
+tensorflow-cpu==2.13.0
 --extra-index-url https://download.pytorch.org/whl/cpu
+
