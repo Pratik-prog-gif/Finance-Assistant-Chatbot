@@ -13,7 +13,7 @@ load_dotenv(find_dotenv())
 # Constants
 HUGGINGFACE_REPO_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 HF_TOKEN = os.environ.get("HF_TOKEN")
-DB_FAISS_PATH = r"C:\Users\PRATIK\OneDrive\Desktop\jupyter notebook\Chatbot\vectorstore\db_faiss"
+DB_FAISS_PATH = "vectorstore/db_faiss"
 
 # Vector Store Loader
 @st.cache_resource
