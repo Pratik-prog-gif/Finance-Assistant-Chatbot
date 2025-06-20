@@ -43,7 +43,7 @@ def set_custom_prompt():
 
 # Load FAISS DB
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-db_path = r"C:\Users\PRATIK\OneDrive\Desktop\jupyter notebook\Chatbot\vectorstore\db_faiss"
+db_path = "vectorstore/db_faiss"
 db = FAISS.load_local(db_path, embedding_model, allow_dangerous_deserialization=True)
 
 # Create QA chain
