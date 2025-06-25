@@ -57,7 +57,7 @@ qa_chain = RetrievalQA.from_chain_type(
 
 # Ask question
 user_question = input("What is your question? ")
-response = qa_chain.invoke({'query': user_question})  # ✅ 'query' is the correct key
+response = qa_chain.invoke({'query': user_question})  
 
 # Show response
 print("\nAnswer:", response["result"])
